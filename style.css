@@ -5,9 +5,34 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
 /*Main body color theme*/
 body {
     background: #D1E8D3;
     color: #000000;
 
+}
+
+/*#Select header element by id (specific element targeting)*/
+#header {
+    width: 100%;
+    /*Change viewport height*/
+    height: 100vh;
+}
+
+/*.Select container by class (multiple elements)*/
+.container{
+    /*10 pixel from top and botton, 5 percent from left and right sides*/
+    padding: 10px 5%;
+}
+
+/*Navigation bar styling*/
+nav{
+    /*Using flexbox container layout mode*/
+    display: flex;
+    /*Default centered alignment of items in flexbox *vertical* axis*/
+    align-items: center;
+    /*Controlling alignment of items on *horizontal* axis*/
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
