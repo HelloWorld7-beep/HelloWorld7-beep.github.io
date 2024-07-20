@@ -1,0 +1,13 @@
+﻿/*Asterisk used as "universal selector", selects all items in CSS file*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/*Main body color theme*/
+body {
+    background: #D1E8D3;
+    color: #000000;
+
+}
