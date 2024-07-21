@@ -36,3 +36,24 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+/*Targeting li (link) elements nested in nav, then ul*/
+nav ul li{
+    /*Setting to allow top/bottom margin modifications of links*/
+    display: inline-block;
+    /*Remove bullet pts*/
+    list-style: none;
+    /*Set top/bottom and left/right margins for links*/
+    margin: 10px 20px;
+
+}
+
+/*Targeting a (actual link) elements*/
+nav ul li a{
+    color: #650e69;
+    /*Remove link underline*/
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Courier New, Courier, monospace;
+
+}
