@@ -1,4 +1,5 @@
-﻿/*Asterisk used as "universal selector", selects all items in CSS file*/
+﻿/*-------------------------------------------Landing Page Styling-------------------------------------------*/
+/*Asterisk used as "universal selector", selects all items in CSS file*/
 *{
     margin: 0;
     padding: 0;
@@ -125,8 +126,46 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #f5625d;
 }
+/*Modifying landing page headshot*/
+.headshot-img{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -230px;
+}
 
-
-
-
+/*-------------------------------------------About Page Styling-------------------------------------------*/
+#about-page{
+    padding: 80px 0;
+}
+/*Styling the "About Me" title text*/
+.subtitle{
+    font-size: 45px;
+    font-weight: 600;
+    color: #f5625d;
+    font-family: Courier New, Courier, monospace;
+}
+/*Styling the subtitles of the about page*/
+.sub-subtitle {
+    font-size: 30px;
+    font-weight: 300;
+    color: #f5625d;
+    font-family: Courier New, Courier, monospace;
+}
+/*Styling the Designer Glycans lab hyperlink*/
+.hyperlink{
+    color: #f5625d;
+    /*Remove link underline*/
+    text-decoration: underline;
+    font-family: Courier New, Courier, monospace;
+    /*Position of elements when modified are relative to their normal positions*/
+    position: relative;
+}
+/*Styling the paragraph texts*/
+.about-paragraphs {
+    font-family:'Lucida Sans Typewriter';
+}
+.container about-paragraphs span{
+    font-weight: 100;
+    font-family:'Lucida Sans Typewriter';
+}
 
