@@ -8,7 +8,7 @@
 
 /*Main body color theme*/
 body {
-    background: #D1E8D3;
+    background: #e1f3e3;
     color: #000000;
 
 }
@@ -26,7 +26,7 @@ body {
     padding: 10px 5%;
 }
 
-/*Navigation bar styling*/
+/*Navigation Bar Styling*/
 nav{
     /*Using flexbox container layout mode*/
     display: flex;
@@ -36,7 +36,6 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 /*Targeting li (link) elements nested in nav, then ul*/
 nav ul li{
     /*Setting to allow top/bottom margin modifications of links*/
@@ -44,16 +43,90 @@ nav ul li{
     /*Remove bullet pts*/
     list-style: none;
     /*Set top/bottom and left/right margins for links*/
-    margin: 10px 20px;
+    margin: 10px 0px;
+    /*Adding a space to the right of each link*/
+    margin-right: 20px;
 
 }
-
 /*Targeting a (actual link) elements*/
 nav ul li a{
-    color: #650e69;
+    color: #f5625d;
     /*Remove link underline*/
     text-decoration: none;
     font-size: 20px;
     font-family: Courier New, Courier, monospace;
+    /*Position of elements when modified are relative to their normal positions*/
+    position: relative;
 
 }
+
+/*Link Decorative Styling (To denote mouse hovering)*/
+/*Top line*/
+nav ul li a::before{
+    content: '';
+    /*Speed of the line's appearance*/
+    transition: 0.4s;
+    /*Hide the line over the link*/
+    width: 0;
+    height: 1px;
+    background: #f5625d;
+    /*Elements when modified can be positioned anywhere, regardless of the flow of other elements*/
+    position: absolute;
+    left: 0;
+    /*Element distance from top margin of container (aka link)*/
+    top: -4px;
+
+}
+/*Bottom line*/
+nav ul li a::after{
+    content: '';
+    /*Speed of the line's appearance*/
+    transition: 0.4s;
+    /*Hide the line under the link*/
+    width: 0;
+    height: 2px;
+    background: #f5625d;
+    /*Elements when modified can be positioned anywhere, regardless of the flow of other elements*/
+    position: absolute;
+    left: 0;
+    /*Element distance from bottom margin of container (aka link)*/
+    bottom: -6px;
+
+}
+/*Make lines visible when mouse is hovering over them*/
+nav ul li a:hover::before{
+    width: 100%;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+/*Header Text Styling*/
+.header-text {
+    /*Height of the header container from the top of the page*/
+    margin-top: 11%;
+    font-size: 25px;
+    margin-right: 25%;
+}
+.header-text p{
+    /*Height from the top of the header text container*/
+    margin-top: 0%;
+    font-size: 20px;
+    font-family: Courier New, Courier, monospace;
+}
+.header-text h1{
+    /*Height from the top of the header text container*/
+    margin-top: 5%;
+    font-size: 50px;
+    font-family: Courier New, Courier, monospace;
+    color: #616271;
+}
+/*Change the color of my name in the header text*/
+.header-text h1 span{
+    color: #f5625d;
+}
+
+
+
+
+
