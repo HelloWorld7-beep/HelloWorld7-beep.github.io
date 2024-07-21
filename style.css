@@ -1,9 +1,12 @@
 ﻿/*Declaring color variables*/
 :root {
-    /*Emphasized text color*/
-    --emphasize: #f89a7d;
     /*Website background color*/
     --background: #e6f0ea;
+    /*Emphasized text color*/
+    --emphasize: #f89a7d;
+    --light-emphasis: #ecbdae;
+    /*Regular text color*/
+    --reg-text: #616271;
 }
 /*-------------------------------------------Landing Page Styling-------------------------------------------*/
 /*Asterisk used as "universal selector", selects all items in CSS file*/
@@ -61,10 +64,11 @@ nav ul li a{
     color: var(--emphasize);
     /*Remove link underline*/
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
     font-family: Courier New, Courier, monospace;
     /*Position of elements when modified are relative to their normal positions*/
     position: relative;
+
 
 }
 
@@ -116,28 +120,30 @@ nav ul li a:hover::after{
     font-size: 25px;
     margin-right: 25%;
 }
+.header-text h1{
+    /*Height from the top of the header text container*/
+    margin-top: 15%;
+    margin-right: 200px;
+    font-size: 45px;
+    font-family: Courier New, Courier, monospace;
+    color: var(--reg-text);
+}
 .header-text p{
     /*Height from the top of the header text container*/
     margin-top: 0%;
     font-size: 20px;
     font-family: Courier New, Courier, monospace;
 }
-.header-text h1{
-    /*Height from the top of the header text container*/
-    margin-top: 5%;
-    font-size: 50px;
-    font-family: Courier New, Courier, monospace;
-    color: #616271;
-}
 /*Change the color of my name in the header text*/
 .header-text h1 span{
     color: var(--emphasize);
+    font-family: Courier New, Courier, monospace;
 }
 /*Modifying landing page headshot*/
 .headshot-img{
     position: absolute;
     margin-left: 700px;
-    margin-top: -230px;
+    margin-top: -250px;
 }
 
 /*-------------------------------------------About Page Styling-------------------------------------------*/
@@ -150,12 +156,13 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: var(--emphasize);
     font-family: Courier New, Courier, monospace;
+    margin-bottom: 10px;
 }
 /*Styling the subtitles of the about page*/
 .sub-subtitle {
     font-size: 30px;
     font-weight: 300;
-    color: var(--emphasize);
+    color: var(--light-emphasis);
     font-family: Courier New, Courier, monospace;
 }
 /*Styling the Designer Glycans lab hyperlink*/
@@ -169,13 +176,17 @@ nav ul li a:hover::after{
 }
 /*Styling the paragraph texts*/
 .about-paragraphs {
+    margin: 5px 0px;
     font-family:'Lucida Sans Typewriter';
+    color: var(--reg-text);
 }
-/*Emphasizing my project title*/
+/*Styling my research project title text*/
 .container .about-paragraphs span{
     font-weight: 500;
     font-family:'Lucida Sans Typewriter';
 }
+
+/*-------------------------------------------Research Page Styling-------------------------------------------*/
 
 
 
