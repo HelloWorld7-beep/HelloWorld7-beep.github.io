@@ -1,6 +1,13 @@
-﻿/*-------------------------------------------Landing Page Styling-------------------------------------------*/
+﻿/*Declaring color variables*/
+:root {
+    /*Emphasized text color*/
+    --emphasize: #f89a7d;
+    /*Website background color*/
+    --background: #e6f0ea;
+}
+/*-------------------------------------------Landing Page Styling-------------------------------------------*/
 /*Asterisk used as "universal selector", selects all items in CSS file*/
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -9,7 +16,7 @@
 
 /*Main body color theme*/
 body {
-    background: #e1f3e3;
+    background: var(--background);
     color: #000000;
 
 }
@@ -51,7 +58,7 @@ nav ul li{
 }
 /*Targeting a (actual link) elements*/
 nav ul li a{
-    color: #f5625d;
+    color: var(--emphasize);
     /*Remove link underline*/
     text-decoration: none;
     font-size: 20px;
@@ -70,7 +77,7 @@ nav ul li a::before{
     /*Hide the line over the link*/
     width: 0;
     height: 1px;
-    background: #f5625d;
+    background: var(--emphasize);
     /*Elements when modified can be positioned anywhere, regardless of the flow of other elements*/
     position: absolute;
     left: 0;
@@ -86,7 +93,7 @@ nav ul li a::after{
     /*Hide the line under the link*/
     width: 0;
     height: 2px;
-    background: #f5625d;
+    background: var(--emphasize);
     /*Elements when modified can be positioned anywhere, regardless of the flow of other elements*/
     position: absolute;
     left: 0;
@@ -124,7 +131,7 @@ nav ul li a:hover::after{
 }
 /*Change the color of my name in the header text*/
 .header-text h1 span{
-    color: #f5625d;
+    color: var(--emphasize);
 }
 /*Modifying landing page headshot*/
 .headshot-img{
@@ -141,19 +148,19 @@ nav ul li a:hover::after{
 .subtitle{
     font-size: 45px;
     font-weight: 600;
-    color: #f5625d;
+    color: var(--emphasize);
     font-family: Courier New, Courier, monospace;
 }
 /*Styling the subtitles of the about page*/
 .sub-subtitle {
     font-size: 30px;
     font-weight: 300;
-    color: #f5625d;
+    color: var(--emphasize);
     font-family: Courier New, Courier, monospace;
 }
 /*Styling the Designer Glycans lab hyperlink*/
 .hyperlink{
-    color: #f5625d;
+    color: var(--emphasize);
     /*Remove link underline*/
     text-decoration: underline;
     font-family: Courier New, Courier, monospace;
@@ -164,8 +171,11 @@ nav ul li a:hover::after{
 .about-paragraphs {
     font-family:'Lucida Sans Typewriter';
 }
-.container about-paragraphs span{
-    font-weight: 100;
+/*Emphasizing my project title*/
+.container .about-paragraphs span{
+    font-weight: 500;
     font-family:'Lucida Sans Typewriter';
 }
+
+
 
