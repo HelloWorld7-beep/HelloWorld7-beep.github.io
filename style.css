@@ -251,7 +251,7 @@ body {
     width: 300px;
     height: 300px;
 }
-/*-------------------------------------------Separate Research Pages Styling-------------------------------------------*/
+/*-------------------------------------------Separate Research Experiences Page Styling-------------------------------------------*/
 /*Styling link to go back to the main research page*/
 .res-link-nav {
     /*Using flexbox container layout mode*/
@@ -353,4 +353,33 @@ body {
     margin-right: auto;
     width: 70%;
     height: 70%;
+}
+/*-------------------------------------------Coursework Styling-------------------------------------------*/
+#coursework-page {
+    padding: 80px 0;
+}
+/*Styling the coursework listed text*/
+.course-list {
+    margin: 5px 0px;
+    font-family: 'Lucida Sans Typewriter';
+    color: var(--reg-text);
+}/*MAYBE DELETE?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*Remove original bullet style*/
+ul {
+    list-style: none;
+}
+/*Adding space in between each bullet point*/
+ul .course-list{
+    margin-top: 10px;
+}
+/*Styling lists of courses*/
+ul .course-list:before {
+    /*Using ASCII code to define bullet style*/
+    content: "\279C";
+    /*Creating left margin for bullet points*/
+    margin-left: 50px;
+}
+.course-list #bolded {
+    font-weight: bold;
+    font-family: 'Lucida Sans Typewriter';
 }
