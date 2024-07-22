@@ -38,7 +38,7 @@ body {
 }
 
 /*Navigation Bar Styling*/
-nav{
+.main-nav{
     /*Using flexbox container layout mode*/
     display: flex;
     /*Default centered alignment of items in flexbox *vertical* axis*/
@@ -49,7 +49,7 @@ nav{
     margin-left: 260px;
 }
 /*Targeting li (link) elements nested in nav, then ul*/
-nav ul li{
+.main-nav ul li{
     /*Setting to allow top/bottom margin modifications of links*/
     display: inline-block;
     /*Remove bullet pts*/
@@ -61,7 +61,7 @@ nav ul li{
 
 }
 /*Targeting a (actual link) elements*/
-nav ul li a{
+.main-nav ul li a{
     color: var(--emphasize);
     /*Remove link underline*/
     text-decoration: none;
@@ -75,7 +75,7 @@ nav ul li a{
 
 /*Link Decorative Styling (To denote mouse hovering)*/
 /*Top line*/
-nav ul li a::before{
+.main-nav ul li a::before{
     content: '';
     /*Speed of the line's appearance*/
     transition: 0.4s;
@@ -91,7 +91,7 @@ nav ul li a::before{
 
 }
 /*Bottom line*/
-nav ul li a::after{
+.main-nav ul li a::after{
     content: '';
     /*Speed of the line's appearance*/
     transition: 0.4s;
@@ -107,10 +107,10 @@ nav ul li a::after{
 
 }
 /*Make lines visible when mouse is hovering over them*/
-nav ul li a:hover::before{
+.main-nav ul li a:hover::before{
     width: 100%;
 }
-nav ul li a:hover::after{
+.main-nav ul li a:hover::after{
     width: 100%;
 }
 
@@ -136,7 +136,7 @@ nav ul li a:hover::after{
     font-family: Courier New, Courier, monospace;
 }
 /*Change the color of my name in the header text*/
-.header-text h1 span{
+.header-text h1 #name-emphasis{
     color: var(--emphasize);
     font-family: Courier New, Courier, monospace;
 }
@@ -162,7 +162,7 @@ nav ul li a:hover::after{
 /*Styling the subtitles of the about page*/
 .sub-subtitle {
     font-size: 30px;
-    font-weight: 300;
+    font-weight: bold;
     color: var(--light-emphasis);
     font-family: Courier New, Courier, monospace;
 }
@@ -181,11 +181,7 @@ nav ul li a:hover::after{
     font-family:'Lucida Sans Typewriter';
     color: var(--reg-text);
 }
-/*Styling my research project title text*/
-.container .about-paragraphs span{
-    font-weight: 500;
-    font-family:'Lucida Sans Typewriter';
-}
+
 
 /*-------------------------------------------Research Page Styling-------------------------------------------*/
 
@@ -199,6 +195,11 @@ nav ul li a:hover::after{
     color: var(--emphasize);
     font-family: Courier New, Courier, monospace;
     margin-bottom: 10px;
+}
+/*Styling paragraph text*/
+#research-page p {
+    font-family: Courier New, Courier, monospace;
+    color: var(--reg-text);
 }
 /*Styling the aligmnent of the columns*/
 .row {
@@ -216,20 +217,140 @@ nav ul li a:hover::after{
     vertical-align: middle;
     width: 200px;
     height: 200px;
+    /*Speed of image enlargening*/
+    transition: 0.4s;
+}
+/*Make images larger when mouse is hovering over them*/
+#header #res-col-1 img:hover {
+    width: 300px;
+    height: 300px;
 }
 /*Styling the second column image, aka inverse scattering research*/
 #header #res-col-2 img {
     vertical-align: middle;
     width: 200px;
     height: 200px;
+    /*Speed of image enlargening*/
+    transition: 0.4s;
+}
+/*Make images larger when mouse is hovering over them*/
+#header #res-col-2 img:hover {
+    width: 300px;
+    height: 300px;
 }
 /*Styling the third column image, aka ai scholars research*/
 #header #res-col-3 img {
     vertical-align: middle;
     width: 200px;
     height: 200px;
+    /*Speed of image enlargening*/
+    transition: 0.4s;
+}
+/*Make images larger when mouse is hovering over them*/
+#header #res-col-3 img:hover {
+    width: 300px;
+    height: 300px;
+}
+/*-------------------------------------------Opentron Research Page Styling-------------------------------------------*/
+/*Styling link to go back to the main research page*/
+.res-link-nav {
+    /*Using flexbox container layout mode*/
+    display: flex;
+    /*Default centered alignment of items in flexbox *vertical* axis*/
+    align-items: center;
+    /*Controlling alignment of items on *horizontal* axis*/
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
+/*Targeting li (link) elements nested in nav, then ul*/
+.res-link-nav ul li{
+    /*Setting to allow top/bottom margin modifications of links*/
+    display: inline-block;
+    /*Remove bullet pts*/
+    list-style: none;
+    /*Set top/bottom and left/right margins for links*/
+    margin: 10px 0px;
+
+}
+/*Targeting a (actual link) elements*/
+.res-link-nav ul li a{
+    color: var(--emphasize);
+    /*Remove link underline*/
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Courier New, Courier, monospace;
+    /*Position of elements when modified are relative to their normal positions*/
+    position: relative;
 
 
+}
+/*Link Decorative Styling (To denote mouse hovering)*/
+/*Top line*/
+.res-link-nav ul li a::before{
+    content: '';
+    /*Speed of the line's appearance*/
+    transition: 0.4s;
+    /*Hide the line over the link*/
+    width: 0;
+    height: 1px;
+    background: var(--emphasize);
+    /*Elements when modified can be positioned anywhere, regardless of the flow of other elements*/
+    position: absolute;
+    left: 0;
+    /*Element distance from top margin of container (aka link)*/
+    top: -4px;
 
+}
+/*Bottom line*/
+.res-link-nav ul li a::after{
+    content: '';
+    /*Speed of the line's appearance*/
+    transition: 0.4s;
+    /*Hide the line under the link*/
+    width: 0;
+    height: 2px;
+    background: var(--emphasize);
+    /*Elements when modified can be positioned anywhere, regardless of the flow of other elements*/
+    position: absolute;
+    left: 0;
+    /*Element distance from bottom margin of container (aka link)*/
+    bottom: -6px;
+
+}
+/*Make lines visible when mouse is hovering over them*/
+.res-link-nav ul li a:hover::before{
+    width: 100%;
+}
+.res-link-nav ul li a:hover::after{
+    width: 100%;
+}
+/*Emphasizing text with span*/
+.sub-subtitle .bold-text{
+    font-family:'Lucida Sans Typewriter';
+}
+/*Styling the paragraph texts*/
+#research-page .res-paragraphs {
+    margin: 5px 0px;
+    font-family: 'Cascadia Mono';
+    color: var(--reg-text);
+
+}
+/*Styling the image caption*/
+#research-page .caption {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    font-family: 'Cascadia Mono';
+    color: var(--reg-text);
+}
+#ot2-img img{
+    /*Make img into block element for centering*/
+    display: block;
+    /*Set the left and right margins to center image*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 70%;
+}
