@@ -152,9 +152,8 @@ body {
 }
 /*Modifying landing page headshot*/
 #headshot-img{
-    position: absolute;
-    margin-left: 700px;
-    margin-top: -250px;
+    margin-left: 60%;
+    margin-top: -35%;
 }
 
 /*-------------------------------------------About Page Styling-------------------------------------------*/
@@ -398,4 +397,34 @@ ul .course-list:before {
 .course-list #bolded {
     font-weight: bold;
     font-family: 'Lucida Sans Typewriter';
+}
+/*-------------------------------------------CV/Resume Styling-------------------------------------------*/
+/*Style buttons to download/view cv and resume pdfs*/
+.download-button {
+    /*Change button color*/
+    background-color: var(--light-emphasis);
+    /*Make button rounded*/
+    border-radius: 8px;
+    /*Remove border*/
+    border: none;
+    box-shadow: 0 9px #999;
+    /*Change size, aka padding*/
+    padding: 16px 16px;
+    transition: 0.1s;
+    font-family: 'Cascadia Mono';
+    color: var(--reg-text);
+}
+
+.download-button:hover {
+    /*Change button color*/
+    background-color: var(--emphasize);
+    /*Make button rounded*/
+    border-radius: 8px;
+    /*Remove border*/
+    border: medium;
+    /*Change size, aka padding*/
+    padding: 16px 16px;
+    font-family: 'Cascadia Mono';
+    color: var(--reg-text);
+    box-shadow: 0 6px #616271;
 }
