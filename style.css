@@ -8,6 +8,13 @@
     /*Regular text color*/
     --reg-text: #616271;
 }
+
+/*General main body color theme*/
+body {
+    background: var(--background);
+    color: #000000;
+}
+
 /*-------------------------------------------Landing Page Styling-------------------------------------------*/
 /*Asterisk used as "universal selector", selects all items in CSS file*/
 * {
@@ -17,11 +24,11 @@
     box-sizing: border-box;
 }
 
-/*Main body color theme*/
-body {
-    background: var(--background);
-    color: #000000;
-
+/*Main page background color theme*/
+#computer-background {
+    /*Add computer image as background*/
+    background-image: url('images/computer_background.JPG');
+    background-size: cover;
 }
 
 /*#Select header element by id (specific element targeting)*/
@@ -117,15 +124,16 @@ body {
 /*Header Text Styling*/
 .header-text {
     /*Height of the header container from the top of the page*/
-    margin-top: 11%;
-    font-size: 25px;
+    margin-top: 8%;
+    font-size: 20px;
     margin-right: 25%;
 }
 .header-text h1{
     /*Height from the top of the header text container*/
-    margin-top: 15%;
-    margin-right: 200px;
-    font-size: 45px;
+    margin-top: 7%;
+    margin-right: 0%;
+    margin-left: 35%;
+    font-size: 35px;
     font-family: Courier New, Courier, monospace;
     color: var(--reg-text);
 }
@@ -134,6 +142,8 @@ body {
     margin-top: 0%;
     font-size: 20px;
     font-family: Courier New, Courier, monospace;
+    margin-right: 0%;
+    margin-left: 35%;
 }
 /*Change the color of my name in the header text*/
 .header-text h1 #name-emphasis{
@@ -180,14 +190,16 @@ body {
     margin: 5px 0px;
     font-family:'Lucida Sans Typewriter';
     color: var(--reg-text);
+    margin-right: 500px;
 }
 
 
 /*-------------------------------------------Research Page Styling-------------------------------------------*/
-
+/*Title styling*/
 #research-page {
     padding: 80px 0;
 }
+
 /*Styling the "My Research Experiences" title text*/
 .subtitle {
     font-size: 45px;
@@ -196,60 +208,64 @@ body {
     font-family: Courier New, Courier, monospace;
     margin-bottom: 10px;
 }
+
 /*Styling paragraph text*/
 #research-page p {
     font-family: Courier New, Courier, monospace;
     color: var(--reg-text);
 }
-/*Styling the aligmnent of the columns*/
+
+/*Styling the alignment of the columns*/
 .row {
     /*Use flexbox layout*/
     display: flex;
-    /*Distribute items (images) evenly along horizontal axis*/
+    /*Distribute items (images) evenly along the horizontal axis*/
     justify-content: space-between;
     /*"Wrap" the images around if too many for one line*/
     flex-wrap: wrap;
     margin-left: 150px;
     margin-right: 150px;
 }
-/*Styling the first column image, aka opentrons research*/
-#header #res-col-1 img{
+
+/*Common styling for all images*/
+#header .image img {
     vertical-align: middle;
     width: 200px;
     height: 200px;
-    /*Speed of image enlargening*/
-    transition: 0.4s;
+    transition: transform 0.5s;
 }
-/*Make images larger when mouse is hovering over them*/
-#header #res-col-1 img:hover {
-    width: 300px;
-    height: 300px;
+
+/*Make images larger when the mouse is hovering over them using transform scale*/
+#header .image:hover img {
+    transform: scale(1.5);
 }
-/*Styling the second column image, aka inverse scattering research*/
-#header #res-col-2 img {
-    vertical-align: middle;
-    width: 200px;
-    height: 200px;
-    /*Speed of image enlargening*/
-    transition: 0.4s;
+
+/*Positioning and styling the text below the image*/
+.image {
+    position: relative;
+    display: inline-block;
+    text-align: center; /* Center the text below the image */
 }
-/*Make images larger when mouse is hovering over them*/
-#header #res-col-2 img:hover {
-    width: 300px;
-    height: 300px;
+/*Style text, invisible until images is hovered over*/
+.img-text {
+    position: relative;
+    /* Adjust this value to move the text further below the image if needed */
+    top: 30px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    color: var(--reg-text);
+    font-size: 20px;
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+    font-size: 15px;
+
 }
-/*Styling the third column image, aka ai scholars research*/
-#header #res-col-3 img {
-    vertical-align: middle;
-    width: 200px;
-    height: 200px;
-    /*Speed of image enlargening*/
-    transition: 0.4s;
-}
-/*Make images larger when mouse is hovering over them*/
-#header #res-col-3 img:hover {
-    width: 300px;
-    height: 300px;
+
+/*Show text when hovering over the image container*/
+.image:hover .img-text {
+    opacity: 1;
+    font-family: Courier New, Courier, monospace;
+    font-size: 20px;
 }
 /*-------------------------------------------Separate Research Experiences Page Styling-------------------------------------------*/
 /*Styling link to go back to the main research page*/
@@ -363,7 +379,7 @@ body {
     margin: 5px 0px;
     font-family: 'Lucida Sans Typewriter';
     color: var(--reg-text);
-}/*MAYBE DELETE?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+}
 /*Remove original bullet style*/
 ul {
     list-style: none;

@@ -8,7 +8,7 @@
     <!--Connecting html and css files-->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="computer-background">
     <!--Creating the header-->
     <div id="header">
         <div class="container">
@@ -23,20 +23,42 @@
                 </ul>
             </nav>
             <div class="header-text">
-                <p>
-                    Researching the use of diffusion models to generate DNA sequences
-                </p>
+                <p id="typed-text"></p>
                 <h1>
-                    Hi! I'm <span id="name-emphasis">Abigail Lin</span>, a Computer Science undergraduate at the Unversity of Florida
+                    Hi! I'm <span id="name-emphasis">Abigail Lin</span>, a Computer Science undergraduate at the University of Florida
                 </h1>
-                <div id="headshot-img">
-                    <img src="images/Headshot_Placeholder.jpg" />
-                </div>
 
             </div>
         </div>
 
     </div>
+    <!--Used this tutorial: https://www.w3schools.com/howto/howto_js_typewriter.asp-->
+    <!--Embedding executable Javascript code for typing animation-->
+    <script>
+        //Paragraph text
+        var txt1 = 'Researching the use of diffusion models to generate DNA sequences';
+        //Speed/duration of animation (milliseconds)
+        var speed = 50;
+
+        //Typing function
+        function typing(element, text, i, callback) {
+            //If current i is less than textlength
+            if (i < text.length) {
+                //Get the character at position i and add it to the HTML of the element
+                document.getElementById(element).innerHTML += text.charAt(i);
+                i++;
+                //Set the pause, aka typing speed, before calling the typing function again
+                setTimeout(function () {
+                    typing(element, text, i, callback);
+                }, speed);
+            }
+        }
+        //When the Document Object Model (DOM) webpage is fully loaded, start the animation
+        document.addEventListener("DOMContentLoaded", function () {
+            //Start the typing animation in the element with id "typed-text" using the text in txt1, starting at index 0
+            typing("typed-text", txt1, 0);
+        });
+    </script>
 
 </body>
 </html>
