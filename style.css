@@ -150,48 +150,103 @@ body {
     color: var(--emphasize);
     font-family: Courier New, Courier, monospace;
 }
-/*Modifying landing page headshot*/
-#headshot-img{
-    margin-left: 60%;
-    margin-top: -35%;
-}
 
 /*-------------------------------------------About Page Styling-------------------------------------------*/
-#about-page{
+/*About Page Styling */
+#about-page {
     padding: 80px 0;
 }
-/*Styling the "About Me" title text*/
-.subtitle{
+
+/*Styling the "About Me" title text */
+.subtitle {
     font-size: 45px;
     font-weight: 600;
     color: var(--emphasize);
     font-family: Courier New, Courier, monospace;
     margin-bottom: 10px;
 }
-/*Styling the subtitles of the about page*/
+
+/*Styling the subtitles of the about page */
 .sub-subtitle {
     font-size: 30px;
     font-weight: bold;
     color: var(--light-emphasis);
     font-family: Courier New, Courier, monospace;
 }
-/*Styling the Designer Glycans lab hyperlink*/
-.hyperlink{
-    color: var(--emphasize);
-    /*Remove link underline*/
-    text-decoration: underline;
-    font-family: Courier New, Courier, monospace;
-    /*Position of elements when modified are relative to their normal positions*/
-    position: relative;
-}
-/*Styling the paragraph texts*/
+
+/*Styling the paragraph texts */
 .about-paragraphs {
     margin: 5px 0px;
-    font-family:'Lucida Sans Typewriter';
+    font-family: 'Lucida Sans Typewriter';
     color: var(--reg-text);
-    margin-right: 500px;
 }
 
+/*Flexbox layout for about content */
+.about-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+/*Styling the text content */
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/*Styling the headshot container */
+#headshot-container {
+    flex-shrink: 0;
+}
+
+/*Styling the headshot image*/
+#headshot-img {
+    width: 350px;
+    height: auto;
+    margin-left: 20px;
+}
+
+/*Styling the favorite quotes section */
+.fav-quotes {
+    margin: 10px 0px;
+    font-family: 'Lucida Sans Typewriter';
+    color: var(--reg-text);
+}
+
+/*Styling the quote author's names */
+.name-italic {
+    font-style: italic;
+    margin: 10px 0px;
+    font-family: 'Lucida Sans Typewriter';
+    color: var(--reg-text);
+}
+
+/*Styling the book list and items */
+.book-list {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Styling each item */
+.book-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*Styling the book titles */
+.book-title {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'Lucida Sans Typewriter';
+    color: var(--reg-text);
+}
+
+/*Styling the book covers */
+.book-item img {
+    height: 200px;
+    width: auto;
+}
 
 /*-------------------------------------------Research Page Styling-------------------------------------------*/
 /*Title styling*/
