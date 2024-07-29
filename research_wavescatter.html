@@ -38,22 +38,36 @@
                         Research Focus:
                     </h2>
                     <p class="res-paragraphs">
-                        TBC
+                        This research project aimed to create a more efficient solver for the forward scattering problem, for objects with a
+                        thin coating. This involves figuring out the scattered waves created when a wave hits an impenetrable obstacle that's 
+                        covered by a thin, penetrable layer. This has many practical applications, such as designing coatings that can hide 
+                        objects from radar in the defense industry or creating special thin films for lenses to change their properties.
                     </p>
                     <h2 class="sub-subtitle">
                         <br />
                         Responsibilities:
                     </h2>
                     <p class="res-paragraphs">
-                        TBC
+                        In the beginning, I read through many papers in order to familiarize myself with the topic of research. I then presented my knowledge
+                        to my PI, along with my partner in the REU. During this time we also attended various workshops and seminars relating to computational
+                        mathematics. Finally, we began work on the project itself, and in order to create the solver we modified Matlab code that was meant to
+                        solve the forward problem for impenetrable objects without a thin layer. In order to make the solver less costly computationally, we 
+                        simplified the original forward problem for an object with a thin coating, called the transmission problem, using General Impedance
+                        Boundary Conditions (GIBCs). These GIBCs simplified the wave equation which calculated the wave as it travelled through the thin layer,
+                        instead turning this complex equation into simpler boundary conditions. These GIBCs were then used in the code to replace the original
+                        Dirichlet boundary condition. This approximation was called the impedance problem, and we compared its results to the "true solution", aka
+                        the transmission problem. We used order 1 and order 2 GIBCs, since the higher the order of GIBC the more complex the condition was.
+                        The GIBCs calculated ranged from orders 0-4, however 0 was too simple and 3-4 too complex for the approximation. In our final results, we
+                        found that GIBC order 2 was a nearly perfect approximation. Then after getting these results, we presented our project in a poster symposium
+                        at UCF.
                     </p>
                     <br />
                     <p class="caption">
-                        TBC
+                        My Research Poster
                     </p>
-                    <div id="ot2-img">
+                    <div class="ot2-img">
                         <br />
-                        <img src="#" />
+                        <img src="images/scattering_poster.jpg" />
                     </div>
                     
 

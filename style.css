@@ -173,7 +173,15 @@ body {
     color: var(--light-emphasis);
     font-family: Courier New, Courier, monospace;
 }
-
+/*Styling the Designer Glycans lab hyperlink*/
+.hyperlink {
+    color: var(--emphasize);
+    /*Remove link underline*/
+    text-decoration: underline;
+    font-family: Courier New, Courier, monospace;
+    /*Position of elements when modified are relative to their normal positions*/
+    position: relative;
+}
 /*Styling the paragraph texts */
 .about-paragraphs {
     margin: 5px 0px;
@@ -415,14 +423,25 @@ body {
     font-family: 'Cascadia Mono';
     color: var(--reg-text);
 }
-#ot2-img img{
+/*Styling ot-2 image*/
+.ot2-img img{
     /*Make img into block element for centering*/
     display: block;
     /*Set the left and right margins to center image*/
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    height: 70%;
+    height: auto;
+}
+/*Styling diffusion model image*/
+.diff-img img {
+    /*Make img into block element for centering*/
+    display: block;
+    /*Set the left and right margins to center image*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
 }
 /*-------------------------------------------Coursework Styling-------------------------------------------*/
 #coursework-page {
