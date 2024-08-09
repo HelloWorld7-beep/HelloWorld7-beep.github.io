@@ -502,3 +502,16 @@ ul .course-list:before {
     color: var(--reg-text);
     box-shadow: 0 6px #616271;
 }
+
+.sub-sub-subtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--light-emphasis);
+    font-family: Courier New, Courier, monospace;
+}
+
+.about-paragraphs #bolded {
+    font-weight: bold;
+    font-family: 'Lucida Sans Typewriter';
+}
+
