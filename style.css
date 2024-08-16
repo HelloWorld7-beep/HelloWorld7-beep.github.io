@@ -211,6 +211,7 @@ body {
     width: 350px;
     height: auto;
     margin-left: 20px;
+    border: 2px solid var(--light-emphasis);
 }
 
 /*Styling the favorite quotes section */
@@ -422,6 +423,16 @@ body {
     justify-content: center;
     font-family: 'Cascadia Mono';
     color: var(--reg-text);
+}
+/*Sub-title citation for image*/
+#research-page .citation {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    font-family: 'Cascadia Mono';
+    color: var(--reg-text);
+    font-size: 12px;
+    
 }
 /*Styling ot-2 image*/
 .ot2-img img{
