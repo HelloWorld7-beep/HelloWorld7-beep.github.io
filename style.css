@@ -286,15 +286,15 @@ body {
     justify-content: space-between;
     /*"Wrap" the images around if too many for one line*/
     flex-wrap: wrap;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /*Common styling for all images*/
 #header .image img {
     vertical-align: middle;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     transition: transform 0.5s;
 }
 
