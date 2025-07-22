@@ -1,4 +1,4 @@
-﻿/*Declaring color variables*/
+/*Declaring color variables*/
 :root {
     /*Website background color*/
     --background: #e6f0ea;
@@ -53,7 +53,7 @@ body {
     /*Controlling alignment of items on *horizontal* axis*/
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 210px;
+    margin-left: 260px;
 }
 /*Targeting li (link) elements nested in nav, then ul*/
 .main-nav ul li{
@@ -525,4 +525,3 @@ ul .course-list:before {
     font-weight: bold;
     font-family: 'Lucida Sans Typewriter';
 }
-
