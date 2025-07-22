@@ -53,7 +53,7 @@ body {
     /*Controlling alignment of items on *horizontal* axis*/
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 260px;
+    margin-left: 240px;
 }
 /*Targeting li (link) elements nested in nav, then ul*/
 .main-nav ul li{
