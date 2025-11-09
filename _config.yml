@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+title                    : "Abigail Lin"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Abigail Lin"
+description              : &description "I am currently a senior at the University of Florida, majoring in Computer Science and minoring in Mathematics."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://helloworld7-beep.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,11 +26,11 @@ author:
   avatar           : "profile.png"
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "I am currently a rising senior at the University of Florida, majoring in Computer Science and minoring in Mathematics."
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : "University of Florida"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "abigaillin35@gmail.com, abigail.lin@ufl.edu" 
 
   # Academic websites
   academia         : # URL
