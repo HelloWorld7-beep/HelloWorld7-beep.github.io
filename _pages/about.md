@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 About Me
 ======
 Hi! I’m an undergraduate researcher passionate about using artificial intelligence to accelerate discovery in biology. I first found my love for research at the University of Florida’s Designer Glycans Lab, where I developed Python automation protocols for molecular biology experiments and contributed to a paper on accessible automation for plant synthetic biology. Since then, I’ve explored how machine learning and computational modeling can reveal new insights into enzyme function and protein design, from applying the Maximum Entropy model to study polysaccharide synthesis to benchmarking protein language models for enzyme prediction. Through experiences in UF’s AI Scholars program, UCF’s Computational Mathematics REU, and Purdue’s Anvil REU, I’ve worked across both computational and experimental biology, building tools that make large-scale biological analysis more efficient and accessible. Looking ahead, I hope to pursue a Ph.D. in computer science to continue advancing AI-driven bioinformatics for applications in medicine, agriculture, and biotechnology.
