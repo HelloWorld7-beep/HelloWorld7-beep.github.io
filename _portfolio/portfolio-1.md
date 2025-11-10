@@ -1,6 +1,6 @@
 ---
 title: "Using the Maximum Entropy Model to Enhance CSLA Enzyme β-Mannan Polysaccharide Synthesis"
-excerpt: "Undergraduate research project on CSLA enzyme modeling<br/><img src='/images/maxent_poster.jpg' style='width:150px; height:auto;'>"
+excerpt: "Undergraduate research project on CSLA enzyme modeling<br/><img src='/images/maxent_poster.jpg' style='width:350px; height:auto;'>"
 collection: portfolio
 ---
 
