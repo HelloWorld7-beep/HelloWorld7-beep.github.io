@@ -23,7 +23,7 @@ repository               : "HelloWorld7-beep/HelloWorld7-beep.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "headshot.jpg"
+  avatar           : "headshot_V2.jpg"
   name             : "Abigail Lin"
   pronouns         : # example: "she/her"  
   bio              : "I am currently a rising senior at the University of Florida, majoring in Computer Science and minoring in Mathematics."
