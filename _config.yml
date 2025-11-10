@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Abigail Lin"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Abigail Lin"
 description              : &description "I am currently a senior at the University of Florida, majoring in Computer Science and minoring in Mathematics."   # Update this with a general description of your site, this is the default if not overridden by a page
