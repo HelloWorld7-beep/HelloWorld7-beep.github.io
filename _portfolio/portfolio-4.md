@@ -46,10 +46,11 @@ These contributions helped produce modular, user-friendly tools that broaden acc
 
 _By me_
 
-![Bioinformatics Workflow Example](/images/workflows.jpg)
+![CUI Template Demonstration Homepage](/images/workflow_cui_1.png)
+![CUI Template Demonstration Step 5](/images/workflow_cui_5.png)
 
 ---
 
-### Console User Interface Development
+### Workflow Diagram
 
-![CUI Template Demonstration](/images/workflow_cui.jpg)
+![CUI Template Demonstration](/images/workflows.jpg)
