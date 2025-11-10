@@ -4,8 +4,6 @@ excerpt: "Undergraduate research project on CSLA enzyme modeling<br/><img src='/
 collection: portfolio
 ---
 
-# Using the Maximum Entropy Model to Enhance CSLA Enzyme β-Mannan Polysaccharide Synthesis
-
 ### August 2024 – Present
 
 **Principal Investigator:** Dr. Cătălin Voiniciuc  
