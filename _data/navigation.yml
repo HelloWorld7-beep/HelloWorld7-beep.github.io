@@ -14,8 +14,8 @@ main:
 #  - title: "Talks"
 #    url: /talks/    
 
-  - title: "Coursework"
-    url: /teaching/    
+#  - title: "Coursework"
+#    url: /teaching/    
     
   - title: "Research Highlights"
     url: /portfolio/
