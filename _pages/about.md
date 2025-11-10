@@ -9,6 +9,42 @@ redirect_from:
 
 Hi! I’m an undergraduate researcher passionate about using artificial intelligence to accelerate discovery in biology. I first found my love for research at the University of Florida’s Designer Glycans Lab, where I developed Python automation protocols for molecular biology experiments and contributed to a paper on accessible automation for plant synthetic biology. Since then, I’ve explored how machine learning and computational modeling can reveal new insights into enzyme function and protein design, from applying the Maximum Entropy model to study polysaccharide synthesis to benchmarking protein language models for enzyme prediction. Through experiences in <b>UF’s AI Scholars program</b>, <b>UCF’s Computational Mathematics REU</b>, and <b>Purdue’s Anvil REU</b>, I’ve worked across both computational and experimental biology, building tools that make large-scale biological analysis more efficient and accessible. Looking ahead, I hope to <b>pursue a Ph.D. in computer science to continue advancing AI-driven bioinformatics for applications in medicine, agriculture, and biotechnology</b>.
 
+
+
+---
+
+
+<h2 class="sub-subtitle">Relevant Coursework</h2>
+
+<h3>Computer Science (Major)</h3>
+<ul>
+    <li><b>Analysis of Algorithms</b> [COT 5405] (Fall 2025)</li>
+    <li><b>Algorithm Abstraction and Design</b> [COP 4533] (Completed)</li>
+    <li><b>Programming Language Concepts</b> [COP 4020] (Completed)</li>
+    <li><b>Operating Systems</b> [COP 4600] (Completed)</li>
+    <li><b>Artificial Intelligence Fundamentals</b> [EEL 3872] (Completed)</li>
+    <li><b>Information and Database Systems 1</b> [CIS 4301] (Completed)</li>
+    <li><b>Introduction to Software Engineering</b> [CEN 3031] (Completed)</li>
+    <li><b>Introduction to Computer Organization</b> [CDA 3101] (Completed)</li>
+    <li><b>Data Structures and Algorithm</b> [COP 3530] (Completed)</li>
+    <li><b>Programming Fundamentals 2</b> [COP 3503C] (Completed)</li>
+    <li><b>Programming Fundamentals 1</b> [COP 3502C] (Completed)</li>
+</ul>
+
+<h3>Mathematics (Minor)</h3>
+<ul>
+    <li><b>Mathematics for Intelligent Systems</b> [COT 5615] (Fall 2025)</li>
+    <li><b>Introduction to Probability</b> [STA 4321] (Completed)</li>
+    <li><b>Intro to Real Analysis 1</b> [MAA 4102] (Completed)</li>
+    <li><b>Introduction to Numerical Analysis</b> [MAD 4401] (Completed)</li>
+    <li><b>Engineering Statistics</b> [STA 3032] (Completed)</li>
+    <li><b>Linear Algebra for Data Science</b> [MAS 4115] (Completed)</li>
+    <li><b>Elementary Differential Equations</b> [MAP 2302] (Completed)</li>
+    <li><b>Applications of Discrete Structures</b> [COT 3100] (Completed)</li>
+    <li><b>Computational Linear Algebra</b> [MAS 3114] (Completed)</li>
+    <li><b>Analytic Geometry and Calculus 3</b> [MAC 2313] (Completed)</li>
+</ul>
+
 ---
 
 <h2 class="sub-subtitle">Some of my favorite quotes:</h2>
