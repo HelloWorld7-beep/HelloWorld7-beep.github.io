@@ -17,6 +17,14 @@ LinkedIn: [linkedin.com/in/abigail-lin-ufl](https://www.linkedin.com/in/abigail-
 
 ---
 
+<p align="center">
+  <a class="btn btn--primary" href="{{ '/files/Abigail_Lin_CV.pdf' | relative_url }}" target="_blank" rel="noopener">
+    <i class="fas fa-file-pdf"></i> Download Full CV (PDF)
+  </a>
+</p>
+
+---
+
 ## Education
 **University of Florida**  
 _Bachelor of Science in Computer Science, Math Minor_  
@@ -78,16 +86,12 @@ _April 2025 | University of Florida_
 _July 2024 | University of Central Florida_  
 “Forward Scattering for Thin Coated Domains: Numerical Solution Using Generalized Impedance Boundary Conditions,” Orlando, FL.
 
-<ul>{% for post in site.talks reversed %}
-  {% include archive-single-talk-cv.html %}
-{% endfor %}</ul>
-
 ---
 
 ## Skills
 - **Programming:** Python, MATLAB, Bash, Slurm, Urwid, Biopython, Pandas  
-- **Tools:** Git, Docker, Apptainer, Benchling, Opentrons OT-2, HiPerGator HPC  
-- **Areas:** Bioinformatics, Synthetic Biology, Machine Learning, Scientific Computing, Workflow Automation
+- **Tools:** Git, Docker, Apptainer, Benchling, Opentrons OT-2, High Performance Computing (HPC)
+- **Areas:** Machine Learning, Scientific Computing, Bioinformatics, Synthetic Biology, Workflow Automation
 
 ---
 
@@ -100,10 +104,4 @@ _January 2024 – Present_
 **Women in Computer Science and Engineering (WiCSE)**  
 _September 2023 – December 2023_  
 - Mentored a CS underclassman, providing technical and professional guidance.
-
----
-
-## Service and Leadership
-* Currently active member of multiple collaborative research teams across UF and Purdue.  
-* Contributor to open-source scientific computing and bioinformatics automation projects.
 
