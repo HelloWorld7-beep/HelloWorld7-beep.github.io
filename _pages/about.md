@@ -30,6 +30,34 @@ Hi! I’m an undergraduate researcher passionate about using artificial intellig
 
 <br />
 
+<style>
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.book-item {
+  text-align: center;
+  max-width: 150px;
+}
+
+.book-item img {
+  width: 150px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.book-title {
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+</style>
+
+
 <h2 class="sub-subtitle">My favorite books at present:</h2>
 <div class="book-list">
     <div class="book-item">
