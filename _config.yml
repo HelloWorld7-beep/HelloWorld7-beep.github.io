@@ -27,7 +27,7 @@ author:
   name             : "Abigail Lin"
   pronouns         : # example: "she/her"  
   bio              : "I am currently a rising senior at the University of Florida, majoring in Computer Science and minoring in Mathematics."
-  location         : "Earth"
+  location         : #"Earth"
   employer         : "University of Florida"
   uri              : # URL
   email            : "abigaillin35@gmail.com, abigail.lin@ufl.edu" 
