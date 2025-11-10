@@ -16,7 +16,7 @@ collection: portfolio
 
 ## Research Focus
 
-Currently, I am a part of the **AI Scholars program** at the University of Florida, where I am working under **Dr. Cătălin Voiniciuc** at the [Designer Glycans Lab](https://www.designerglycans.com/), as well as **Dr. Wenjun Xie's** Xie Lab.  
+Currently, I am a part of the **AI Scholars program** at the University of Florida, where I am working under **Dr. Cătălin Voiniciuc** at the [Designer Glycans Lab](https://www.designerglycans.com/), as well as **Dr. Wenjun Xie's** [Xie Lab](https://evocatalysis.github.io/).  
 My project, *“Using the Maximum Entropy Model to Enhance CSLA Enzyme β-Mannan Polysaccharide Synthesis”*, explores how to computationally generate **CSLA enzymes** that produce plant β-mannan polysaccharides with programmable activities, using our lab’s data on enzyme structures and functions.
 
 Mannans are a type of polysaccharide found in **hemicellulose**, which is critical to food, material, energy, and biomedical industries.  
