@@ -9,7 +9,7 @@ venue: 'Plant Physiology'
 slidesurl: #'https://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://www.biorxiv.org/content/10.1101/2025.08.21.671538v1.abstract'
 bibtexurl: #'https://academicpages.github.io/files/bibtex1.bib'
-citation: 'Qiande, M., Lin, A., Larson, L., & Voiniciuc, C. (2025). “Accessible Automation for Plant Synthetic Biology.” bioRxiv. 2025.08.21.671538v1.'
+citation: 'Qiande, M., <b>Lin, A.</b>, Larson, L., & Voiniciuc, C. (2025). “Accessible Automation for Plant Synthetic Biology.” bioRxiv. 2025.08.21.671538v1.'
 ---
 [Link to paper
 ](https://www.biorxiv.org/content/10.1101/2025.08.21.671538v1)
