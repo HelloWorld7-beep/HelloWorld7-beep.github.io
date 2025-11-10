@@ -9,19 +9,19 @@ redirect_from:
 
 {% include base_path %}
 
-Abigail Lin  
-Email: [abigaillin35@gmail.com](mailto:abigaillin35@gmail.com)  
-Phone: (407) 803-1335  
-Website: [https://helloworld7-beep.github.io](https://helloworld7-beep.github.io)  
-LinkedIn: [linkedin.com/in/abigail-lin-ufl](https://www.linkedin.com/in/abigail-lin-ufl)
-
----
-
 <p align="center">
   <a class="btn btn--primary" href="{{ '/files/Abigail_Lin_CV.pdf' | relative_url }}" target="_blank" rel="noopener">
     <i class="fas fa-file-pdf"></i> Download Full CV (PDF)
   </a>
 </p>
+
+---
+
+Abigail Lin  
+Email: [abigaillin35@gmail.com](mailto:abigaillin35@gmail.com)  
+Phone: (407) 803-1335  
+Website: [https://helloworld7-beep.github.io](https://helloworld7-beep.github.io)  
+LinkedIn: [linkedin.com/in/abigail-lin-ufl](https://www.linkedin.com/in/abigail-lin-ufl)
 
 ---
 
