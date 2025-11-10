@@ -252,7 +252,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _coursework
+  # _teaching
   - scope:
       path: ""
       type: coursework
