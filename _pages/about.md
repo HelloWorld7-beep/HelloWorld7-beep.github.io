@@ -33,20 +33,23 @@ Hi! I’m an undergraduate researcher passionate about using artificial intellig
 <style>
 .book-list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  flex-wrap: nowrap; /* ensures everything stays on one line */
   justify-content: center;
+  align-items: flex-end; /* align bottoms of books evenly */
+  gap: 20px;
+  overflow-x: auto; /* allows horizontal scroll if too many books for small screens */
+  padding-bottom: 10px;
 }
 
 .book-item {
   text-align: center;
-  max-width: 150px;
+  flex: 0 0 auto; /* prevents shrinking */
 }
 
 .book-item img {
-  width: 150px;
-  height: 225px;
-  object-fit: cover;
+  height: 200px; /* consistent height for all images */
+  width: auto; /* auto width to preserve aspect ratio */
+  object-fit: cover; /* crops if necessary but keeps size consistent */
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
@@ -54,8 +57,10 @@ Hi! I’m an undergraduate researcher passionate about using artificial intellig
 .book-title {
   font-size: 0.9rem;
   margin-top: 8px;
+  max-width: 150px;
 }
 </style>
+
 
 
 <h2 class="sub-subtitle">My favorite books at present:</h2>
