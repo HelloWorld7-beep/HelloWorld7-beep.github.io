@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I’m a Ph.D. student in Computer Science at the University of Florida, where I work in <b>Dr. Sumit Jha’s lab</b>. My research focuses on <b>interpretable reasoning in machine learning systems</b>, particularly large language models.
+Hi! I’m a <b>Ph.D. student in Computer Science at the University of Florida</b>, where I work in <b>Dr. Sumit Jha’s lab</b>. My research focuses on <b>interpretable reasoning in machine learning systems</b>, particularly large language models.
 
 I’m interested in understanding the internal representations and computations that shape model behavior, with the goal of making AI systems more transparent, reliable, and verifiable. My broader interests include <b>machine learning interpretability, LLM reasoning, and trustworthy AI</b>, especially for scientific and safety-critical applications.
 
