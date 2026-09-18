@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Abigail Lin"
-description              : &description "I am currently a senior at the University of Florida, majoring in Computer Science and minoring in Mathematics."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "I am currently a first-year Ph.D. CISE student at the University of Florida, working in Dr. Sumit Jha's lab."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://helloworld7-beep.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "headshot_V2.jpg"
   name             : "Abigail Lin"
   pronouns         : # example: "she/her"  
-  bio              : "I’m a senior at the University of Florida majoring in Computer Science and minoring in Mathematics, driven by a fascination with how computational methods can unlock new insights in biology and accelerate scientific innovation."
+  bio              : "I’m a CISE Ph.D. student in Computer Science at the University of Florida, working in <b>Dr. Sumit Jha’s lab</b>. My research is driven by a fascination with how machine learning systems reason and how their internal processes can be made more interpretable, reliable, and verifiable."
   location         : #"Earth"
   employer         : "University of Florida"
   uri              : # URL
