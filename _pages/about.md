@@ -7,7 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I’m an undergraduate researcher passionate about <b>using artificial intelligence to accelerate discovery in biology</b>. I first found my love for research at the University of Florida’s Designer Glycans Lab, where I developed Python automation protocols for molecular biology experiments and contributed to a paper on accessible automation for plant synthetic biology. Since then, I’ve explored how machine learning and computational modeling can reveal new insights into enzyme function and protein design, from applying the Maximum Entropy model to study polysaccharide synthesis to benchmarking protein language models for enzyme prediction. Through experiences in <b>UF’s AI Scholars program</b>, <b>UCF’s Computational Mathematics REU</b>, and <b>Purdue’s Anvil REU</b>, I’ve worked across both computational and experimental biology, building tools that make large-scale biological analysis more efficient and accessible. Looking ahead, I hope to <b>pursue a Ph.D. in computer science to continue advancing AI-driven bioinformatics for applications in medicine, agriculture, and biotechnology</b>.
+Hi! I’m a Ph.D. student in Computer Science at the University of Florida, where I work in <b>Dr. Sumit Jha’s lab</b>. My research focuses on <b>interpretable reasoning in machine learning systems</b>, particularly large language models.
+
+I’m interested in understanding the internal representations and computations that shape model behavior, with the goal of making AI systems more transparent, reliable, and verifiable. My broader interests include <b>machine learning interpretability, LLM reasoning, and trustworthy AI</b>, especially for scientific and safety-critical applications.
+
+My long-term goal is to develop methods that make advanced machine learning systems easier to understand, evaluate, and depend on in real-world settings.
 
 
 
